@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Journal</title>
+    
+    <style>
+        body {
+            font-family: 'Georgia', serif; 
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        #header, #footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px; 
+            margin: 15px; 
+            border: 2px solid #555; 
+        }
+
+        #main-content {
+            margin: 20px;
+           
+            overflow: auto;
+        }
+
+        .journal-entry {
+            background-color: #fff;
+            border: 1px solid #ccc; 
+            padding: 15px;
+            margin-bottom: 20px; 
+            width: 45%; 
+            float: left;
+            margin-right: 20px; 
+            box-sizing: border-box; 
+        }
+
+        .entry-title {
+            color: #007BFF;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+        }
+
+        .date {
+            font-style: italic;
+            color: #666;
+            font-weight: 300;
+        }
+
+        .highlight {
+            color: red;
+            font-weight: 700;
+            border-bottom: 1px dashed red;
+            padding-bottom: 2px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="header">
+        <h1>Huzaifa's Journal</h1>
+        <p>Documenting my life one entry at a time.</p>
+    </div>
+
+    <div id="main-content">
+        <div class="journal-entry">
+            <h2 class="entry-title">First Day of ICT class</h2>
+            <p class="date">October 19, 2025</p>
+            <p>Today I started learning about binary language. It's fascinating how numbers can make cumputer run <span class="highlight">(0,</span> and <span class="highlight">1)</span>. </p>
+        </div>
+
+        <div class="journal-entry">
+            <h2 class="entry-title">Frist day at fast</h2>
+            <p class="date">October 18, 2025</p>
+            <p> fist day at fast was amazaing. I met new <span class="highlight">people</span><span class="highlight"> and teachers.</span> </p>
+        </div>
+    </div>
+
+    <div id="footer">
+        <p>&copy; 2025 My Journal. Contact info available upon request.</p>
+    </div>
+
+</body>
+</html>
